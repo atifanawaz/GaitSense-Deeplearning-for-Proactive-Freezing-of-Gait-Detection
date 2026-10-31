@@ -1,0 +1,17 @@
+venv/
+node_modules/
+build/
+__pycache__/
+.ipynb_checkpoints/
+*.db
+.env
+azure_package/
+*.zip
+dataset/raw/*
+!dataset/raw/subjects.csv
+!dataset/raw/tdcsfog_metadata.csv
+tdcsfog_csvs/
+tdcsfog_data/
+tlvmc-parkinsons-freezing-gait-prediction/
+__pycache__/
+.ipynb_checkpoints/

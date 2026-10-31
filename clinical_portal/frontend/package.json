@@ -1,0 +1,33 @@
+{
+  "name": "gaitsense-clinical-portal",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:8000",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "plotly.js": "^2.32.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
