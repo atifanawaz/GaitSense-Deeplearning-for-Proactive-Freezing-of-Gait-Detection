@@ -327,3 +327,7 @@ Supervisor: Mr. Malik M Ali, Department of Computer Science, Bahria University K
 ## Disclaimer
 
 This is a research tool and not a diagnostic device. It is not a substitute for clinical judgment and must not be used as the sole basis for diagnosis or treatment.
+
+## License
+
+Released under the MIT License. See [LICENSE](LICENSE).
