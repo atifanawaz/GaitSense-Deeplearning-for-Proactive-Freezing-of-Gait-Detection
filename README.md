@@ -11,7 +11,7 @@
 ![Azure](https://img.shields.io/badge/Azure-App%20Service-0078D4?logo=microsoftazure&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
 
-[Live demo](https://gaitsense-fogtrack.netlify.app) Â· [Architecture](#system-architecture) Â· [Results](#results) Â· [Getting started](#getting-started)
+[Live demo](https://gaitsense-fogtrack.netlify.app) | [Architecture](#system-architecture) | [Results](#results) | [Getting started](#getting-started)
 
 </div>
 
@@ -274,27 +274,27 @@ Step-by-step instructions, app settings and troubleshooting are in [docs/DEPLOYM
 
 ```text
 .
-â”œâ”€â”€ anticipation_research/       # FoG anticipation pipeline
-â”œâ”€â”€ clinical_portal/
-â”‚   â”œâ”€â”€ backend/
-â”‚   â”‚   â”œâ”€â”€ data/                # Portal metadata
-â”‚   â”‚   â”œâ”€â”€ db/                  # SQLAlchemy setup
-â”‚   â”‚   â”œâ”€â”€ models/              # Architectures and model loader
-â”‚   â”‚   â”œâ”€â”€ model_weights/       # Portal inference weights
-â”‚   â”‚   â”œâ”€â”€ routers/             # API routes
-â”‚   â”‚   â””â”€â”€ services/            # Inference, parsing, CRUD, reports
-â”‚   â”œâ”€â”€ frontend/                # React portal
-â”‚   â””â”€â”€ README.md
-â”œâ”€â”€ dataset/                     # Metadata only; raw recordings are not included
-â”œâ”€â”€ docs/                        # Deployment guide
-â”œâ”€â”€ experiments/
-â”‚   â”œâ”€â”€ data_preprocessing/
-â”‚   â”œâ”€â”€ exploratory_analysis/
-â”‚   â”œâ”€â”€ model_training/
-â”‚   â””â”€â”€ trigger_prediction/
-â”œâ”€â”€ results/
-â”œâ”€â”€ trained_models/
-â””â”€â”€ README.md
+|-- anticipation_research/       # FoG anticipation pipeline
+|-- clinical_portal/
+|   |-- backend/
+|   |   |-- data/                # Portal metadata
+|   |   |-- db/                  # SQLAlchemy setup
+|   |   |-- models/              # Architectures and model loader
+|   |   |-- model_weights/       # Portal inference weights
+|   |   |-- routers/             # API routes
+|   |   `-- services/            # Inference, parsing, CRUD, reports
+|   |-- frontend/                # React portal
+|   `-- README.md
+|-- dataset/                     # Metadata only; raw recordings are not included
+|-- docs/                        # Deployment guide
+|-- experiments/
+|   |-- data_preprocessing/
+|   |-- exploratory_analysis/
+|   |-- model_training/
+|   `-- trigger_prediction/
+|-- results/
+|-- trained_models/
+`-- README.md
 ```
 
 ## Dataset
@@ -320,7 +320,7 @@ The models were trained and evaluated on the public, anonymized Kaggle tDCS FOG 
 
 ## Authors
 
-**Laiba Ali Â· Kishmala Khan Â· Atifa Nawaz**
+**Laiba Ali | Kishmala Khan | Atifa Nawaz**
 
 Supervisor: Mr. Malik M Ali, Department of Computer Science, Bahria University Karachi
 
