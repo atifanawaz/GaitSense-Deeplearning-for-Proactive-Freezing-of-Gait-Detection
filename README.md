@@ -320,7 +320,7 @@ The models were trained and evaluated on the public, anonymized Kaggle tDCS FOG 
 
 ## Authors
 
-**Laiba Ali | Kishmala Khan | Atifa Nawaz**
+**Atifa Nawaz | Laiba Ali | Kishmala Khan**
 
 Supervisor: Mr. Malik M Ali, Department of Computer Science, Bahria University Karachi
 
