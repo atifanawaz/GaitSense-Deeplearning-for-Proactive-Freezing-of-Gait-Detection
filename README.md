@@ -5,9 +5,7 @@ GaitSense is a clinical research portal for reviewing Freezing of Gait (FoG) in 
 ## Live demo
 
 - Frontend: https://gaitsense-fogtrack.netlify.app
-- API: https://fogtrack-backend-gsb2ezcwdehscee6.centralindia-01.azurewebsites.net
-- Health: https://fogtrack-backend-gsb2ezcwdehscee6.centralindia-01.azurewebsites.net/api/health
-- Docs: https://fogtrack-backend-gsb2ezcwdehscee6.centralindia-01.azurewebsites.net/docs
+The demo site has no login. Please upload only public tDCS FOG recordings. The first request after idle may be slow.
 
 ## Why this project
 
@@ -88,7 +86,7 @@ This removes isolated false positives and turns window predictions into clinical
 │   │   └── services/            # Inference, parsing, CRUD, and reports
 │   ├── frontend/                # React portal
 │   └── README.md
-├── dataset/                    # Local raw-data workspace
+├── dataset/                    # Metadata only; raw recordings are not included
 ├── experiments/
 │   ├── data_preprocessing/
 │   ├── exploratory_analysis/
@@ -130,8 +128,3 @@ Supervisor: Mr. Malik M Ali
 ## Disclaimer
 
 This is a research tool, not a diagnostic device. It is not a substitute for clinical judgment and should not be used as the sole basis for diagnosis or treatment.
-
-## TODO for me
-
-- Add screenshots.
-- Add a LICENSE.
